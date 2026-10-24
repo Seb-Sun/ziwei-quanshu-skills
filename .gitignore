@@ -1,0 +1,38 @@
+# Private source material and user records belong outside the public package.
+local-sources/
+source-pages/
+private/
+personal-data/
+consultations/
+book-traditional.md
+book-simplified.md
+**/book-traditional.md
+**/book-simplified.md
+**/source-pages/
+
+# Source scans, archives, and office exports.
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+*.webp
+*.zip
+*.7z
+*.rar
+*.docx
+
+# Credentials and local files.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+__pycache__/
+.venv/
+.idea/
+.vscode/
+tmp/
+output/
