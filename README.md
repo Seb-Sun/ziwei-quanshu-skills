@@ -6,6 +6,12 @@ Source-grounded prompts and portable skills for studying **Zi Wei Dou Shu Quan S
 
 **Bring your own source.** This repository contains prompts, workflow instructions, and paraphrased method notes. It does not distribute the book, scans, a full transcription, or personal chart records.
 
+## Start here
+
+- **See an example first:** read the [complete fictional walkthrough](examples/walkthrough.md) ([中文](examples/walkthrough.zh-CN.md)): input → condition checks → explanation → plain-language summary.
+- **Use your own chart:** choose a prompt below, then follow the quick start. Input guides: [ChatGPT](skills/ziwei-quanshu-chatgpt/references/input-schema.md) · [DeepSeek](skills/ziwei-quanshu-deepseek/references/input-schema.md).
+- **Review or contribute:** see the [contribution guide](CONTRIBUTING.md) and [acceptance cases (Chinese)](tests/acceptance-test-cases.zh-CN.md). Cases describe expected behavior; they are not evidence of completed model evaluations.
+
 ## What it does
 
 - Checks each relevant condition as satisfied, not satisfied, or unknown.
@@ -50,11 +56,9 @@ Page numbers in the notes are **locators for that scan**, not universal page num
 
 The project does not embed a particular person's chart, major-period starting age, or choice between disputed calculation conventions. A user's chosen convention must be recorded as such, rather than silently treated as a proven source rule.
 
-## Publishing and contributing
+## Contributing and evaluation
 
-Submit improvements to the workflow, paraphrases, or synthetic examples. Do not add complete book transcriptions, scanned pages, private charts, conversation exports, credentials, or machine-specific paths. Independently check any submitted source claim.
-
-To publish this prepared folder through GitHub's website: create a repository, use **Add file → Upload files**, and upload the folder's contents while preserving the `skills/` structure. Read the file list before committing. `.gitignore` is a Git exclusion mechanism; it does not inspect or prevent manual browser uploads. Check Markdown files as well as media for third-party content.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution and publication checks. The walkthrough is an authored illustration, not a captured ChatGPT or DeepSeek response.
 
 The prompts were prepared with AI assistance. No systematic evaluation against specific ChatGPT or DeepSeek model versions has been completed. The project is independent and is not affiliated with OpenAI, DeepSeek, or the book's publisher.
 
